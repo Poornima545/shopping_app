@@ -1,0 +1,28 @@
+.navbar{
+  background-color: #312450 !important;
+  font-size: 0.6em;
+  letter-spacing: 0.25em;
+}
+
+.sidebar{
+color: rgba(255, 255, 255, 0.35) !important;
+}
+
+.sidebar:hover{
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+
+.shop-title {
+  margin-left: 250px; 
+  color: black; 
+}
+
+ul{
+  padding-right: 200px;
+}
+
+/* .ms-5{
+  text-decoration: underline;
+  letter-spacing: normal;
+  line-height: 1;
+} */
