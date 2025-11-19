@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true)
 
     useEffect(() => {
-        //Check if user is already logged in on refresh
+        //Check if user is already logged-in
         const getSession = async () => {
             const {
                 data: { session }, error } = await supabase.auth.getSession();
