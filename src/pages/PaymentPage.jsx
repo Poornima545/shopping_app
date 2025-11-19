@@ -25,9 +25,9 @@ const PaymentPage = () => {
 
         localStorage.setItem("completedOrders", JSON.stringify(completedOrders));
 
-        // Remove temporary order
+        // Remove orders once payment is completed
         localStorage.removeItem("latestOrder");
-        // 
+
         // Redirect home
         window.location.href = "/";
     };
